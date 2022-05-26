@@ -44,37 +44,28 @@ number of bytes in memory that each of the following number types uses, and the
 minimum and maximum values they can have: sbyte, byte, short, ushort, int, uint, long, ulong, float, double, and decimal.*/
 
 
+Console.WriteLine(sbyte.MaxValue);
+Console.WriteLine(sbyte.MinValue);
+Console.WriteLine(byte.MaxValue);
+Console.WriteLine(byte.MinValue);
+Console.WriteLine(short.MaxValue);
+Console.WriteLine(short.MinValue);
+Console.WriteLine(ushort.MaxValue);
+Console.WriteLine(ushort.MinValue);
+Console.WriteLine(int.MaxValue);
+Console.WriteLine(int.MinValue);
+Console.WriteLine(uint.MaxValue);
+Console.WriteLine(uint.MinValue);
+Console.WriteLine(long.MaxValue);
+Console.WriteLine(long.MinValue);
+Console.WriteLine(ulong.MaxValue);
+Console.WriteLine(ulong.MinValue);
+Console.WriteLine(float.MaxValue);
+Console.WriteLine(float.MinValue);
+Console.WriteLine(double.MaxValue);
+Console.WriteLine(double.MinValue);
+Console.WriteLine(decimal.MaxValue);
+Console.WriteLine(decimal.MinValue);
 
 
 
-
-
-2. Write program to enter an integer number of centuries and convert it to years, days, hours,
-minutes, seconds, milliseconds, microseconds, nanoseconds. Use an appropriate data
-type for every data conversion. Beware of overflows!
-Input: 1
-Output: 1 centuries = 100 years = 36524 days = 876576 hours = 52594560 minutes
-= 3155673600 seconds = 3155673600000 milliseconds = 3155673600000000
-microseconds = 3155673600000000000 nanoseconds
-Input: 5
-Output: 5 centuries = 500 years = 182621 days = 4382904 hours = 262974240
-minutes = 15778454400 seconds = 15778454400000 milliseconds = 15778454400000000
-microseconds = 15778454400000000000 nanoseconds
-Explore following topics
-C# Keywords
-Main() and command-line arguments
-Types (C# Programming Guide)
-Statements, Expressions, and Operators
-Strings (C# Programming Guide)
-Nullable Types (C# Programming Guide)
-Nullable reference types
-Controlling Flow and Converting Types
-Test your Knowledge
-1. What happens when you divide an int variable by 0?
-2. What happens when you divide a double variable by 0?
-3. What happens when you overflow an int variable, that is, set it to a value beyond its
-range?
-4. What is the difference between x = y++; and x = ++y;?
-5. What is the difference between break, continue, and return when used inside a loop
-statement?
-6. What are the three parts of a for statement and which of them are required?
