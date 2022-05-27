@@ -273,7 +273,26 @@ Will have one Instructor as head
 Will have Budget for school year (start and end Date Time)
 Will offer list of courses*/
 
+public interface IPersonService
+{
+    
+}
+public interface ICourseService
+{
 
+}
+public interface IStudentService
+{
+
+}
+public interface IInstructorService
+{
+
+}
+public interface IDepartmentService
+{
+
+}
 
 
 
@@ -303,3 +322,54 @@ Create a Pop method, which changes the ball’s size to 0.
 Create a Throw method that adds 1 to the throw count, but only if the ball hasn’t been
 popped (has a size of 0).
 A method that returns the number of times the ball has been thrown*/
+public class Color
+{
+    private int alpha;
+    private int red;
+    private int green;
+    private int blue;
+
+    public int Alpha { get { return alpha; } set { alpha = value; } }
+    public int Red { get { return red; } set { red = value; } }
+    public int Green { get { return green; } set { green = value; } }
+    public int Blue { get { return blue; } set { blue = value; } }
+
+    public Color (int alpha, int red, int green, int blue)
+    {
+        this.alpha = alpha;
+        this.red = red;
+        this.green = green;
+        this.blue = blue;
+    }
+    public Color (int red, int green, int blue)
+    {
+        int alpha = 255;
+        this.red = red;
+        this.green = green;
+        this.blue = blue;
+    }
+    public int grayscale()
+    {
+        int gray = (red + green + blue) / 3;
+        return gray;
+    }
+}
+public class Ball
+{
+
+    private int size = 10;
+    int count = 0;
+    public void pop(int  size)
+    {
+        this.size = size;
+        size = 0;
+    }
+    public void throwcount(int count)
+    {
+        this.count = count;
+    }
+    public int numThrow()
+    {
+        return count;
+    }
+}
