@@ -11,7 +11,7 @@ Test your knowledge
 2. What is the difference between the static, const, and readonly keywords when applied to a type member?
 Constant and ReadOnly keyword - used to make a field constant which value cannot be modified. 
 Static keyword - used to make members static that can be shared by all the class objects.
-readonly - 
+readonly - indicate taht assignment to the field can only occur as part of the declaration or in a constructor in the same class
 
 3. What does a constructor do?
 1)is a special method  which shares the same name of the class and doesn't have any return type, not even void
@@ -61,10 +61,10 @@ Access is limited to the current assembly.
 12. True 
 Polymorphism allows derived classes to provide different implementations of the same method.
 
-13. True/ False. 
+13. True
 The override keyword is used to indicate that a method in a derived class is providing its own implementation of a method.
 
-14. True/ False. 
+14.  False. 
 The new keyword is used to indicate that a method in a derived class is providing its own implementation of a method.
 
 15. False. 
@@ -73,19 +73,19 @@ Abstract methods can be used in a normal (non-abstract) class.
 16. True
 Normal (non -abstract) methods can be used in an abstract class. 
 
-17.False.
+17.true
 Derived classes can override methods that were virtual in the base class. 
 
 18.True
 Derived classes can override methods that were abstract in the base class. 
 
-19.True / False.
+19.False.
 In a derived class, you can override a method that was neither virtual non abstract in the base class.
 
 20.False.
 A class that implements an interface does not have to provide an implementation for all of the members of the interface.
 
-21.True / False.
+21.True 
 A class that implements an interface is allowed to have other members that aren’t defined in the interface.
 
 22.False.
