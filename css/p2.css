@@ -1,0 +1,42 @@
+
+.top{
+    background-color: #272e31;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topcon{
+    line-height: 1.7142857143;
+    display: block;
+    padding-left: 25px;
+    flex: 1 1 1 150px;
+}
+
+.col1{
+    color: rgba(255, 255, 255, .6);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col2{
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 1;
+}
+.col3{
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.col4{
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bottom{
+    background-color:black;
+    color: #fff;
+}
+

@@ -1,0 +1,74 @@
+.h img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+h1{
+    position:absolute;
+    right: 100px;
+    top: 220px;
+    color: aliceblue;
+    font-size: 40px;
+}
+.btn button{
+    table-layout: fixed;
+    width: 220px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(109, 107, 107);
+}
+
+.btn{
+    background-color: rgb(230, 230, 230);;
+}
+
+.cont1{
+    margin: 40px;
+    padding: 10px;
+    width: 1100px;
+    height: auto;
+    background-color: white;
+    box-shadow: 1px 1px 9px #aaaaaa;
+    border-radius: 10px;
+    float: left;
+}
+
+.cont2{
+    background-color:#aaaaaa;
+    box-shadow: 1px 1px 9px #aaaaaa;
+    margin: 40px;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    float: left;
+}
+
+h2{
+    text-transform: uppercase;
+    color: green;
+}
+
+.cont3{
+    background-color: white;
+    box-shadow: 1px 1px 9px #aaaaaa;
+    margin: 40px;
+    padding: 10px;
+    width: 1100px;
+    height: auto;
+    border-radius: 10px;
+    float: left;
+}
+.cont4{
+    background-color:white;
+    box-shadow: 1px 1px 9px #aaaaaa;
+    margin: 40px;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    float: left;
+}

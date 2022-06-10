@@ -1,0 +1,56 @@
+.logo img{
+    width: 15%;
+    height: auto;
+    display: block;
+}
+
+.bg img{
+    height: 100px;
+    width: 100%;
+    object-fit:fill;
+}
+
+.bg .apply{
+    position: absolute;
+    display: block;
+    left: 90%;
+    padding: 10px 20px;
+    top: 14%;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 80px 0;
+    
+}
+
+td{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 9px #aaaaaa;
+    box-sizing: border-box;
+    width: 30cm;
+}
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: cover;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+h5{
+    float: right;
+}
+
+ul li{
+    display: inline;
+    background-color: aqua;
+    border: 10cm;
+    margin: 6px;
+}
