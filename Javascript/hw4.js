@@ -7,6 +7,10 @@ let salaries = {
 var Sum = salaries.John + salaries.Ann + salaries.Pete;
 console.log(Sum);
 
+
+
+
+
 let menu = { width: 200, height: 300, title: "My menu"};
 
 function multiplyNumeric(obj) {
@@ -20,6 +24,10 @@ function multiplyNumeric(obj) {
 }
 
 console.log(multiplyNumeric(menu));
+
+
+
+
 
 var str = "asdgsdg@gsidni.com";
 
@@ -39,7 +47,23 @@ function checkEmailId(str){
 
 
 
-function truncate(str){
 
+
+function truncate(str, maxlength) {
+    return str.substring(0,maxlength-1);
 
 }
+
+
+
+
+
+let names = {James, Brennie}
+
+names.push("Robert");
+
+names[1]=Calvin;
+
+names.shift();
+
+names.splice(0,0,Rose, Regal);
